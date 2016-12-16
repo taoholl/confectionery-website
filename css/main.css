@@ -19,22 +19,22 @@ h2 {
   background-color: #4bc7f2;
 }
 
+h3 {
+    font-family: "Lobster", cursive;
+}
+
 .color-brand {
   color: #b99aa1;
 }
 
 .logo {
   background-color: #fff;
-  border-bottom: 3px solid #2d5a4d;
-  border-top: 3px solid #2d5a4d;
   background-image: url("../images/pattern.svg");
   background-size: 10px auto;
 }
 
 body {
   background-color: #fff;
-  border-bottom: 3px solid #2d5a4d;
-  border-top: 3px solid #2d5a4d;
   background-image: url("../images/pattern.svg");
   background-size: 100px auto;
 }
@@ -123,6 +123,12 @@ font-family: "lobster",cursive;
 
 .contact {
   background-color: #fff;
+  background-image: url("../images/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lobster", cursive;
+  color:#000;
+
 }
 
 .special {
