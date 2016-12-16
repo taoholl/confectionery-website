@@ -1,26 +1,24 @@
 html {
-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Convergence, sans-serif;
+  text-align: center;
+  color: #30131e;
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1 {
-  font-family: "Lobster", cursive;
-}
-
-html {
-  font-family: 'Convergence', sans-serif;
-  text-align: center;
+  font-family: Lobster, cursive;
 }
 
 h2 {
-  background-color: #4bc7f2;
+  background-color: #5b2d3d;
 }
 
 h3 {
-    font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 .color-brand {
@@ -29,8 +27,9 @@ h3 {
 
 .logo {
   background-color: #fff;
-  background-image: url("../images/pattern.svg");
-  background-size: 10px auto;
+  background-image: url("../images/banner.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 body {
@@ -38,20 +37,23 @@ body {
   background-image: url("../images/pattern.svg");
   background-size: 100px auto;
 }
+
 span {
   text-align: center;
 }
+
 .color-brand-dark {
-  color: #f1eaee;;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
+  color: #fff;
+  text-shadow: .1em .1em .3em rgba(9, 9, 9, 2);
 }
 
 a {
-  color: #000;
+  color: #50c7f2;
 }
 
 a:hover {
-  color: #113c00;
+  color: #50c7f2;
 }
 
 .max-length {
@@ -61,36 +63,28 @@ a:hover {
 
 .masthead {
   background-color: #f1eaee;
-font-family: "lobster",cursive;
+  font-family: lobster, cursive;
   color: #f1eaee;
   text-align: center;
-
 }
-
-.opening {
-  position: relative;
-  max-height: 23.5rem;
-  overflow: hidden;
-}
-
 
 .nav a {
   display: inline-block;
   padding: .5rem .75rem;
-
-  color: #000;
+  color: #50c7f2;
   text-decoration: none;
 }
 
 .nav {
   position: relative;
-  background-color: #f1eaee;
+  background-color: #511e2e;
   z-index: 2;
 }
 
 .nav a:hover {
-  background-color: #fff;
+  background-color: #5b2d3d;
   color: #b99aa1;
+  border-radius: .15rem;
 }
 
 .nav a:focus {
@@ -104,13 +98,14 @@ font-family: "lobster",cursive;
 }
 
 .banner-content {
-  color: #000;
+  color: #fff;
   text-align: center;
-  font-family: "lobster",cursive;
+  font-family: lobster, cursive;
+  text-shadow: .1em .1em .3em rgba(9, 9, 9, 2);
 }
 
 .banner-subhead {
-  font-family: 'Convergence', sans-serif;
+  font-family: Convergence, sans-serif;
 }
 
 .selection {
@@ -118,7 +113,7 @@ font-family: "lobster",cursive;
 }
 
 .about {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .contact {
@@ -126,37 +121,39 @@ font-family: "lobster",cursive;
   background-image: url("../images/banner.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Lobster", cursive;
-  color:#000;
-
+  font-family: Lobster, cursive;
 }
 
 .special {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .team {
-  background-color:#fff;
+  background-color: #fff;
 }
-.btn {
-  background-color: #113c00;
-  border-color: #113c00;
 
+.btn {
+  background-color: #50c7f2;
+  border-color: #1d8caa;
+  border-radius: 2rem;
+  padding-right: 3rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 3rem;
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #568c36;
-  border-color: #568c36;
+  background-color: #1d8caa;
+  border-color: #50c7f2;
 }
 
 .footer {
-  background-color: #53253b;
+  background-color: #30131e;
   color: #fff;
 }
 
 @media only screen and (min-width: 35em) {
-
 
   .banner-content {
     bottom: 0;
@@ -165,7 +162,7 @@ font-family: "lobster",cursive;
     color: #fff;
 
     background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(185, 154, 161, 0), rgba(86, 68, 73, .8));
+    background-image: linear-gradient(to bottom, rgba(185, 154, 161, 0), rgba(80, 199, 242, .8));
 
   }
 
