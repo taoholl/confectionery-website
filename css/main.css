@@ -20,7 +20,7 @@ h3 {
 
 .color-brand {
   color: #b99aa1;
-  background-color: #5b2d3d
+  background-color: #5b2d3d;
 }
 
 .logo {
@@ -44,7 +44,7 @@ span {
   font-family: Lobster, cursive;
   color: #fff;
   text-shadow: .1em .1em .3em rgba(9, 9, 9, 2);
-  background-color: #5b2d3d
+  background-color: #5b2d3d;
 }
 
 a {
@@ -164,12 +164,13 @@ a:hover {
     background-image: linear-gradient(to bottom, rgba(185, 154, 161, 0), rgba(80, 199, 242, .8));
   }
 
-.contact-info {
-  padding: 1em;
-}
+  .contact-info {
+    padding: 1em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
+
   .comment {
     color: #fff;
     text-shadow: .1em .1em .3em rgba(9, 9, 9, 2);
