@@ -15,26 +15,31 @@ html {
   text-align: center;
 }
 
-.logo {
- color: #53253b;
- background-color: #000;
+h2 {
+  background-color: #4bc7f2;
 }
+
 .color-brand {
   color: #b99aa1;
 }
 
+body {
+  background-color: #fff;
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-image: url("../images/pattern.svg");
+  background-size: 100px auto;
 }
 span {
   text-align: center;
 }
 .color-brand-dark {
-  color: #53253b;
+  color: #f1eaee;;
   font-family: "Lobster", cursive;
 }
 
-
 a {
-  color: #;
+  color: #000;
 }
 
 a:hover {
@@ -84,7 +89,6 @@ font-family: "lobster",cursive;
   outline: 3px solid #f1eaee;
 }
 
-
 .opening {
   position: relative;
   max-height: 23.5rem;
@@ -108,13 +112,18 @@ font-family: "lobster",cursive;
 .about {
     background-color: #f5f2f0;
 }
+
 .contact {
   background-color: #f5f2f0;
 }
-.specialities {
+
+.special {
   background-color:#f5f2f0;
 }
 
+.team {
+  background-color:#f5f2f0;
+}
 .btn {
   background-color: #113c00;
   border-color: #113c00;
