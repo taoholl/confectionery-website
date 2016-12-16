@@ -23,6 +23,14 @@ h2 {
   color: #b99aa1;
 }
 
+.logo {
+  background-color: #fff;
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-image: url("../images/pattern.svg");
+  background-size: 10px auto;
+}
+
 body {
   background-color: #fff;
   border-bottom: 3px solid #2d5a4d;
@@ -106,23 +114,23 @@ font-family: "lobster",cursive;
 }
 
 .selection {
-  background-color: #f5f2f0;
+  background-color: #fff;
 }
 
 .about {
-    background-color: #f5f2f0;
+    background-color: #fff;
 }
 
 .contact {
-  background-color: #f5f2f0;
+  background-color: #fff;
 }
 
 .special {
-  background-color:#f5f2f0;
+  background-color:#fff;
 }
 
 .team {
-  background-color:#f5f2f0;
+  background-color:#fff;
 }
 .btn {
   background-color: #113c00;
